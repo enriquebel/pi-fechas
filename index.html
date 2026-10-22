@@ -106,5 +106,7 @@ const arriba=document.getElementById('arriba');
 addEventListener('scroll',()=>arriba.classList.toggle('ver',scrollY>600),{passive:true});
 arriba.onclick=()=>{scrollTo({top:0,behavior:'smooth'});setTimeout(()=>document.getElementById('f').focus({preventScroll:true}),400);};
 </script>
+  <!-- Contador de visitas (GoatCounter): sin cookies, solo cuenta que se abre la página -->
+  <script data-goatcounter="https://ebumates.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
